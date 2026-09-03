@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+*.csv
+*.json
+*.jsonl
+
+
+saved_summary_model/
+
+# Model 
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Training outputs
+results/
+runs/
+checkpoints/
+output/
+
+# Environment / secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
