@@ -7,6 +7,10 @@ __pycache__/
 venv/
 env/
 
+# PyCharm
+.idea/
+*.iml
+
 # Jupyter
 .ipynb_checkpoints/
 
@@ -15,7 +19,10 @@ env/
 *.json
 *.jsonl
 
-# Model / training files
+
+saved_summary_model/
+
+# Model 
 *.pt
 *.pth
 *.bin
@@ -29,6 +36,7 @@ output/
 
 # Environment / secrets
 .env
+.env.*
 
 # OS files
 .DS_Store
